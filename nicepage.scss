@@ -479,7 +479,7 @@
   }
   background-color: #333333;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px), (min-width: 481px) {
   .banner {
     padding: 0 20px;
     .banner_item {
@@ -649,6 +649,26 @@
         h3 {
           font-size: 1.25rem;
         }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .banner {
+    .banner-item2 {
+      max-width: 100%;
+      h1 {
+        font-size: 4rem !important;
+      }
+    }
+  }
+  .section7 {
+    .s7_item {
+      .s7--item1 {
+        max-width: 100%;
+      }
+      .s7--item2 {
+        max-width: 90%;
       }
     }
   }
