@@ -49,6 +49,7 @@
   padding: 0 20px;
 }
 .banner .banner_item .banner-item2 h1 {
+  max-width: 100%;
   padding-top: 20px;
   width: 300px;
   font-size: 5rem;
@@ -552,7 +553,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px), (min-width: 481px) {
+@media screen and (max-width: 767px) {
   .banner {
     padding: 0 20px;
   }
